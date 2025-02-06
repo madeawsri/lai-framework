@@ -1,13 +1,17 @@
 {
-    "autoload": {
-        "psr-4": {
-            "App\\": "App/",
-            "Helpers\\": "helpers/",
-            "Core\\": "core/"
-        }
-    },
-    "require": {
-        "vlucas/phpdotenv": "^5.6",
-        "duncan3dc/blade": "^4.14"
+  "name": "madeawsri/lai-framework",
+  "autoload": {
+    "psr-4": {
+      "App\\": "App/",
+      "Core\\": "core/",
+      "Helpers\\": "helpers/"
     }
+  },
+  "require": {
+    "vlucas/phpdotenv": "^5.6",
+    "duncan3dc/blade": "^4.14"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
+
